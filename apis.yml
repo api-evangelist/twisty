@@ -1,8 +1,23 @@
 aid: twisty
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/twisty.png
 name: Twisty
-description: 'Twisty is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Twisty, operated by Bright Live Inc. (dba Twisty) of Santa Monica, California,
+  is an AI character creation platform that lets creators generate lifelike AI characters
+  and produce personalized, expressive video messages as an alternative to generic
+  talking-head videos. The product ships as a web app plus iOS and Android apps with
+  a free tier and a paid monthly plan, and is backed by Norwest Venture Partners.
+  Twisty does not currently publish a public API, developer documentation, or SDKs.'
 url: https://raw.githubusercontent.com/api-evangelist/twisty/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Artificial Intelligence
+- Video
+- Content Creation
+- AI Characters
+- Media
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/twisty-domain-security.yml
 - type: Website
   url: https://twisty.ai
+- type: Pricing
+  url: https://twisty.ai/pricing
+- type: TermsOfService
+  url: https://twisty.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://twisty.ai/privacy-policy
+- type: LLMsTxt
+  url: llms/twisty-llms.txt
+- type: Login
+  url: https://twisty.ai/login
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

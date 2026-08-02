@@ -1,0 +1,18 @@
+# Twisty
+
+> Twisty is an AI character creation platform from Bright Live Inc. (dba Twisty) that lets creators generate lifelike AI characters and personalized, expressive video messages. It is a consumer/creator product available on the web and via iOS and Android apps, with a free tier and a paid monthly plan. Twisty does not currently publish a public API, developer documentation, or SDKs.
+
+## Company
+
+- [Website](https://twisty.ai): Twisty homepage — AI character studio for video content
+- [Pricing](https://twisty.ai/pricing): Free tier plus paid monthly plan
+- [Terms of Service](https://twisty.ai/terms-of-service): Operated by Bright Live Inc. (dba Twisty), Santa Monica, CA
+- [Privacy Policy](https://twisty.ai/privacy-policy): Privacy practices
+
+## APIs
+
+- No public API, developer portal, or documentation is published as of 2026-07-21 (probed /docs, /api, /developers — all redirect to /explore; no developer subdomains resolve).
+
+## Catalog
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/twisty/refs/heads/main/apis.yml): API Evangelist network profile for Twisty
