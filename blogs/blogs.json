@@ -1,0 +1,14 @@
+{
+  "repo": "twisty",
+  "feeds": [
+    {
+      "source": "https://twisty.ai/rss.xml",
+      "feed_url": "https://twisty.ai/rss.xml",
+      "title": "",
+      "saved": 60,
+      "method": "feed"
+    }
+  ],
+  "post_count": 60,
+  "fetched": "2026-10-10T13:15:00Z"
+}
